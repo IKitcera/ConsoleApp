@@ -1,0 +1,24 @@
+﻿Welcome to HOCOOS!
+0. proficiency with the required technologies and your approach to solving development challenges, task analysis, solution design, writing efficient and clean code.
+
+Requirements
+
+General
+
+1. Add support for Dependency Injection (Microsoft.Extensions.DependencyInjection).
+2. Replace Console.WriteLine with calls to ILogger methods (Microsoft.Extensions.Logging).
+
+
+ThreadBackendTask
+
+3. Inherit from the ThreadBackendTask class.
+4. Limit the number of threads to 5.
+
+
+ExpressionBackendTask
+
+5. Inherit from the ExpressionBackendTask class.
+6. Limit data return to only the specified list of fields.
+
+
+7. Note: Consider the changes you’d make in the already written code.
