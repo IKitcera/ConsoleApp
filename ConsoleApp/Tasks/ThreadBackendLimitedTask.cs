@@ -17,7 +17,7 @@ namespace ConsoleApp.Tasks
         {
         }
 
-        // TPL base version, limits nr of threads exactly to 5
+        // TPL based version, limits nr of threads exactly to 5
         protected override async Task<IEnumerable<ThreadTaskItemResult>> ExecuteAsync(IEnumerable<ThreadTaskItemConfig> configs)
         {
             var options = new ParallelOptions()
